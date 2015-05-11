@@ -1,0 +1,60 @@
+.header {
+  position: relative;
+  background: url("images/splash.jpg") no-repeat fixed center;
+  background-size: cover;
+  border-bottom: 1pt solid #9FA5BA;
+  color: #fff;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  background-color: rgba(23, 24, 27, 0.1);
+}
+
+.header > .container {
+  padding: 200px 0 75px 0;
+}
+
+.footer {
+  background-color: #1A2025;
+  color: #D7D8D9;
+}
+
+.footer > .container {
+  padding: 75px 0 100px 0;
+}
+
+.footer a {
+  color: #D7D8D9;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'open sans', sans-serif;
+}
+
+.section {
+  margin: 75px 0 100px 0;
+  color: #17181B;
+}
+
+.inset {
+  /*margin: 10px 0;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.screenshot {
+  border: 1pt solid #9FA5BA;
+}
+
+.text-xl { font-size: 6em; }
+.text-lg { font-size: 3em; }
+.text-md { font-size: 2.25em; }
+.text-sm { font-size: 1.50em; }
+.text-light { font-weight: 300; }
+.text-heavy { font-weight: 700; }
